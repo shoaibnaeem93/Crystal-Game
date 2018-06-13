@@ -1,5 +1,6 @@
 html {
-    background: url("../images/crystal_background.jpg")
+    background: url("../images/crystal_background.jpg") no-repeat;
+    -webkit-background-size: cover;  
 }
 
 #logo { 
@@ -12,7 +13,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     color: purple;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
 
@@ -22,7 +23,53 @@ h1 {
     width: 40%;
     margin-left: 25px;
     background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 15px 15px 0px 15px;
     margin-bottom: 20px;
 }
+
+.random-number {
+    background:lightgreen;
+    width: 20%;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: grey;
+    margin: 0px 15px 15px 25px;
+    padding: 15px 0px 0px 15px;
+    float: left;
+}
+
+#game-score {
+    background: lightcyan;
+    width: 20%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 0px 15px 10px;
+}
+
+.gems {
+    clear: both;
+}
+
+.gemImage {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 25px;
+    margin: 0px 0px 15px 25px;
+}
+
+.total-score {
+    background: rgb(238, 158, 158);
+    width: 20%;
+    height: 120px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 0px 15px 10px;
+    margin: 0px 15px 15px 25px;
+
+}
+
 
