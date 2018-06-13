@@ -1,0 +1,28 @@
+html {
+    background: url("../images/crystal_background.jpg")
+}
+
+#logo { 
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.instructions-container {
+    font-size: 20px;
+    color: grey;
+    width: 40%;
+    margin-left: 25px;
+    background-color: blanchedalmond;
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 20px;
+}
+
